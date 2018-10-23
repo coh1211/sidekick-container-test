@@ -65,6 +65,34 @@ From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
    pip install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp27-cp27mu-linux_x86_64.whl
    pip install torchvision 
 
+   pip install \
+      absl-py==0.1.11 \
+      alabaster==0.7.10 \
+      asn1crypto==0.22.0 \
+      astor==0.6.2 \
+      astroid==1.5.3 \
+      astropy==2.0.2 \
+      Babel==2.5.0 \
+      backports-abc==0.5 \
+      backports.functools-lru-cache==1.5 \
+      backports.shutil-get-terminal-size==1.0.0 \
+      backports.ssl-match-hostname==3.5.0.1 \
+      backports.weakref==1.0.post1 \
+      beautifulsoup4==4.6.0 \
+      bitarray==0.8.1 \
+      bkcharts==0.2 \
+      blaze==0.10.1 \
+      bleach==1.5.0 \
+      bokeh==0.12.7 \
+      boto==2.48.0 \
+      Bottleneck==1.2.1 \
+      certifi==2018.1.18 \
+      cffi==1.11.5 \
+      chardet==3.0.4 \
+      click==6.7 \
+      cloudpickle==0.4.0 \
+      clyent==1.2.1 \
+      colorama==0.3.9 
 
 %test 
    echo "Running pip list"
