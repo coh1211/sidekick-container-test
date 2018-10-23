@@ -57,16 +57,15 @@ From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
 
    pip install --upgrade pip requests setuptools pipenv
    pip --no-cache-dir install \
-        numpy \
-        pandas \
-        scipy \
-        sklearn
+      numpy \
+      pandas \
+      scipy \
+      sklearn
 
    # Install pytorch as per pytorch.org instructions
    pip install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp27-cp27mu-linux_x86_64.whl
    pip install torchvision 
-
-   mkdir /opt/rl-sidekick && cd /opt/rl-sidekick
+   
    pip install \
       absl-py==0.1.11 \
       alabaster==0.7.10 \
