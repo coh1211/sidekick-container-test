@@ -26,6 +26,7 @@ From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
    CUDA_HOME="/usr/local/cuda"
 
 %post
+
    # Pick up some TF dependencies
    apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
